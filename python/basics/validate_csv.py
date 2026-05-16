@@ -1,5 +1,9 @@
 import csv
-
+# Script de validación de datos de usuarios en el que se ejecutan validaciones muy comunes en QA
+#Entre ellos se encuentran la validación de formato y de rango y validación de campo vacìo
+#El metodo .strip() elimina espacios en blanco del inicio y final de una cadena.
+#El método .isdiggit() valida el formato numerico dentro de un string.
+#El método .append() permite agregar alementos al final de una lista existente, en este caso errors.
 # Datos de prueba — simulamos una lista de usuarios
 users = [
     {"id": "1", "name": "Ana García", "email": "ana@example.com", "age": "28"},
